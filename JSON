@@ -1,0 +1,110 @@
+var personagens = [
+    {
+        "id": 01,
+        "nacao": "Cavaleirode Rohan",
+        "casa": "Abismo de Helm",
+        "descricao": "Durante a XIII século de Terceira Idade (TA), os governantes de Gondor formaram uma aliança estreita com os habitantes do território do norte deRhovanion, um pai de três pessoas Casas do Edain da Primeira Era. Estes homens foram dizimados pela  Grande  Peste  de  1636  TA,  e  ainda  mais  pelas  invasões  dos  carrinhos  de Pessoas-de-no final do XX século. Após essas invasões, alguns desses homens, liderados por um certo Frumgar, migraram para o vale superior do Anduin em 1977 TA. No local, eles entraram em conflito com os Anões sobre o compartilhamento do tesouro do dragão Scatha, morto por Fram, filho de Frumgar. Esses homens, que tomaram o nome de Éothéod, viveram por vários séculos ao redor das nascentes do Anduin, mas se tornaram cada vez mais numerosos e se sentiam confinados em suas terras.  Apesar  do  afastamento,  eles  mantiveram  laços  com  Gondor,  e  quando  o Administrador Cirion se viu atacado por hordas de Orientais e Orcs, em 2510 AT, ele chamou Eorl, o Jovem, o novo Senhor dos Éothéod. Ele chegou inesperadamente e  venceu  a  batalha  decisiva  dos  Campos  de  Celebrant.",
+        "personagens-Saga": ["Theoden", "Theodred", "Deorwine"],
+        "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cavalier-rohan.jpg/220px-Cavalier-rohan.jpg"
+    },
+
+    {
+        "id": 02,
+        "nacao": "Anao",
+        "casa": "Povo de Durin",
+        "descricao": "Gimli, filho de Glóin, era um anão guerreiro respeitado na Terra-Média. Ele era um membro da Sociedade do Anel, e foi o único dos anões que lutou com os elfos na guerra contra Sauron no final da Terceira Era.",
+        "personagens-saga": ["Balin", "Bombur", "Durin, o Imortal", "Dwalin"],
+        "imagem": "https://images.app.goo.gl/xJ4qYkFv3BaG2tNT6"
+    },
+
+    {
+        "id": 03,
+        "nacao": "Elfo da Floresta",
+        "casa": "Floresta das trevas",
+        "descricao": "Os Elfos são descritos como altos e belos, parecidos com os Valar (espécie de anjos), só que menores em estatura e poder, e são imortais, pelos menos enquanto o Mundo, chamado Arda, existir. Não envelhecem nem adoecem, e se forem mortalmente feridos ou se sofrerem um grande desgosto seu corpo morre, mas seu espírito sobrevive sendo então enviado para as Mansões de Mandos onde permanece até poder reencarnar, em um corpo idêntico e com as mesmas lembranças. Um direito que os elfos têm é o de ir, se assim desejarem, para Valinor, no continente sagrado de Aman, destino esse vedado aos mortais.",
+        "personagens-saga": ["Vanyar, Noldor , Teleri"],
+        "imagem": "https://images.app.goo.gl/mSftvSZ2qgtV"
+    },
+
+    {
+        "id": 04,
+        "nacao": "Hobbit",
+        "casa": "O Condado",
+        "descricao": "Os  hobbits pés-peludos são o tipo mais comum de hobbit. São morenos, preferem planícies e regiões banhadas por rios. Os cascalvas tem a pele e o cabelo mais claros, são mais altos e mais esguios que os outros tipos de hobbit, preferem bosques e florestas para morar além de serem descendentes de elfos. Outros hobbits dizem que estes têm 'sangue de fada', por conta de sua ascendência. Os grados são tipos de hobbit mais robustos e frequentemente cultivam barbas. São mais próximos aos  anões,  e  Sméagol  costumava  ser  um  cascalva  antes  de  ser  corrompido  pelo anel",
+        "personagens-saga": ["Bilbo Bolseiro", "Samwise Gamgee", "Frodo Bolseiro", "Peregrin Tok", "Rosinha villa"],
+        "imagem": "https://cinemacomrapadura.com.br/imagens/2012/01/Hobbit.jpeg"
+    },
+
+    {
+        "id": 05,
+        "nacao": "Elfo de Lothlórien",
+        "casa": "Floresta das trevas",
+        "descricao": "O nome Lothlórien é uma abreviação do nome Laurelindórenan. Além de Lothlórien, no entanto, o reino pode ainda ser chamado apenas de Lórien, já que Lothlórien significa Lórien da Flor. No entanto, Lórien era na verdade o reino do vala Irmo, que mora em Aman, as Terras Imortais.",
+        "personagens-saga": ["Narya", " Nenya", "Wilya"],
+        "imagem": "https://images.app.goo.gl/V57jTu6bTohJdTQJ8"
+    },
+
+    {
+        "id": 06,
+        "nacao": "Orc Snaga",
+        "casa": "Cirith Ungol",
+        "descricao": "Snaga era o segundo no comando de Grishnakh. Snaga e Grishnakh encontraram o bando de Ugluk e mandaram Ugluk levar os Hobbits para o Grande Rio onde um Nazgul esperava por eles. ",
+        "personagens-saga": ["Melhor", "Sauron", "Valor", "Nazgul"],
+        "imagem": "https://terramedia.fandom.com./wiki/Sauron?file=Sauron.jpg"
+    },
+
+    {
+        "id": 07,
+        "nacao": "Uruk-hai",
+        "casa": "Portao Negro",
+        "descricao": "Os Uruk-hai eram mais usados como soldados do que as outras linhagens porque, ao contrario dos outros orcs, eram quase tao altos quanto os homens, tinham pernas longas e retas. ",
+        "personagens-saga": ["Gorbag", "Shagrat", "Ugluk", "Azog", "Bolg"],
+        "imagem": "https://static.wikia.nocookie.net/terramedia/images/2/28/Download_%284%29.jpg/revision/latest?cb=20141213020012"
+    },
+
+    {
+        "id": 08,
+        "nacao": "Guerreiro de Gondor",
+        "casa": "Minas Tirith",
+        "descricao": "Gimli, filho de Glóin, era um anão guerreiro respeitado na Terra-Média. Ele era um membro da Sociedade do Anel, e foi o único dos anões que lutou com os elfos na guerra contra Sauron no final da Terceira Era.",
+        "personagens-saga": ["Aragom", "Boromir", "Aldamir"],
+        "imagem": "https://encrypted-tbn0.gstatic.com/images/2/28Download_%284%29.jpg/latest?cb=20141213020012"
+    },
+];
+
+function escreveHtml_NOVO(arrayPersonagens) {
+    var elementoBase = document.getElementById('personagens');
+
+    var novaLista = document.createElement("ul");
+    for (let i = 0; i < arrayPersonagens1.length; i++) {
+        let novoItem = document.createElement("li");
+        novoItem.innerHTML = arrayPersonagens1[i].nome;
+        novaLista.appendChild(novoItem);
+    }
+    elementoBase.appendChild(novaLista);
+
+    let novoTitulo = document.createElement("h3");
+    novoTitulo.innerHTML = "novo título com personagens";
+    document.body.insertBefore(novoTitulo, elementoBase);
+}
+
+function escreveHtml(arrayPersonagens) {
+
+    arrayPersonagens = arrayPersonagens.sort();
+    var meuNovoConteudo = "<table border='1'>";
+    for (let i = 0; i < arrayPersonagens.length; i++) {
+        meuNovoConteudo += "<tr>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].id + "</td>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].nacao + "</td>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].casa + "</td>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].descricao + "</td>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].personagem - saga + "</td>";
+        meuNovoConteudo += "<td>" + arrayPersonagens[i].imagem + "</td>";
+        meuNovoConteudo += "</tr>";
+    }
+    meuNovoConteudo += "</table>";
+    meuNovoConteudo += "<p>Quantidade: " + arrayPersonagens.length + "</p>";
+
+    var elemento = document.getElementById('personagens');
+    elemento.innerHTML = meuNovoConteudo;
+}   
